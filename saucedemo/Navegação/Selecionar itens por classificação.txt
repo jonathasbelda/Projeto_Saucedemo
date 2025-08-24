@@ -1,0 +1,8 @@
+driver.find_element(By.XPATH, "//*[@id='header_container']/div[2]/div/span/select").click()  # fechar o menu
+time.sleep(3)
+dropdown = driver.find_element(By.CLASS_NAME, "product_sort_container")
+select = Select(dropdown)
+select.select_by_visible_text("Price (high to low)")
+time.sleep(5)
+
+driver.quit()

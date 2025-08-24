@@ -1,0 +1,8 @@
+driver = webdriver.Chrome()  # Instancializar o Chrome
+driver.implicitly_wait(10)
+driver.maximize_window()  # Maximizar a janela do chrome
+time.sleep(5) # Tempo de espera
+driver.get("https://www.saucedemo.com")  # Abrir a página soucedemo
+time.sleep(5)
+
+driver.quit()

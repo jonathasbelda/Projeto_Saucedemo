@@ -15,8 +15,12 @@ e utilizando funções auxiliares para tornar os processos mais eficientes.
 ## Estrutura de pastas
 - `soucedemo/login/` → Scripts relacionados a login.
 - `soucedemo/navegacao/` → Scripts de navegação.
-- `automacoes/filtros/` → Scripts de filtros e ordenação.
-- `utils/` → Funções auxiliares.
+- `soucedemo/carrinho/` → Scripts de adicionar/remover itens do carrinho.
+- `soucedemo/pedido/` → Scripts de finalizar pedido e preencher informações.
+- `soucedemo/logout/` → Scripts de logout.
+- `soucedemo/suites` → Scripts de automação completa (fluxos end-to-end).
+
+
 
 
 
